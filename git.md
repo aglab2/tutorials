@@ -41,6 +41,8 @@ cd D:\git
 git clone git@github.com:aglab2/layouts.git ./layouts
 ```
 
+Type "yes" to answer "Are you sure you want to continue connecting", if asked.
+
 This will clone repository to "D:\git\layouts".
 
 You may now apply your changes to your local version of the repository.
