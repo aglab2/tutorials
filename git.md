@@ -110,4 +110,31 @@ To see current status, use status which shows very nice information of current g
 git status
 ```
 
+To see all the commits in current branch and their "hashes", use git log
+```λ git log
+commit fffacb2615388e6aac1f1bec52ec27965c04dd41 (HEAD -> test, origin/test)
+Author: aglab2 <aglab3@gmail.com>
+Date:   Sun Apr 28 19:45:34 2024 +0800
+
+    xd
+
+commit 84171cc9a778964feaeb07c838e5a345ae10a78f (origin/main, main)
+Author: aglab2 <aglab3@gmail.com>
+Date:   Sun Apr 28 19:13:37 2024 +0800
+
+    first commit
+```
+In my example, commits have "hashes" fffacb2615388e6aac1f1bec52ec27965c04dd41 and 84171cc9a778964feaeb07c838e5a345ae10a78f. commits can be referenced from other branches within the repository.
+
+One useful application of commit hashes is to cherry-pick a commit from any branch to the current branch:
+```
+git cherry-pick fffacb2615388e6aac1f1bec52ec27965c04dd41
+```
+
+git can also reset on a given commit hash:
+```
+git reset --hard 84171cc9a778964feaeb07c838e5a345ae10a78f
+```
+In this example, fffacb2615388e6aac1f1bec52ec27965c04dd41 will be lost
+
 [!] For collaboration purposes, it is important to ensure that "fork" is only ever behind or equal to "original". Otherwise PR cannot be merged because of "merge conflict". Please try to make sure your fork is up-to-date when PR is created. [!]
