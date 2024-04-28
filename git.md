@@ -40,12 +40,12 @@ Use your fork https://github.com/[YOUR_NAME]/[REPO_NAME] to add contents to. To 
 ```
 D:
 cd D:\git
-git clone git@github.com:[YOUR_NAME]/[REPO_NAME].git ./layouts
+git clone git@github.com:[YOUR_NAME]/[REPO_NAME].git ./[REPO_NAME]
 ```
 
 Type "yes" to answer "Are you sure you want to continue connecting", if asked.
 
-This will clone repository to "D:\git\layouts". Change directory to your local repository
+This will clone repository to "D:\git\[REPO_NAME]". Change directory to your local repository
 ```
 cd [REPO_NAME]
 ```
