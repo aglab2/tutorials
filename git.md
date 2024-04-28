@@ -57,7 +57,12 @@ I highly recommended to make a separate branch to make PR from now. Executing th
 git checkout -b my-new-feature
 ```
 
-This will create a new branch called "my-new-feature", you may change the name of the branch. Create a new commit with a name. Notice that there should be changes to source code for commit to be created.
+Notice that there should be changes to source code for commit to be created. Add your changes using command executed in topmost folder ([REPO_NAME] folder)
+```
+git add .
+```
+
+This will create a new branch called "my-new-feature", you may change the name of the branch. Create a new commit with a name.
 ```
 git commit -m "I made a mew feature"
 ```
