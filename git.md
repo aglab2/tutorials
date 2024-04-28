@@ -57,12 +57,12 @@ I highly recommended to make a separate branch to make PR from now. Executing th
 git checkout -b my-new-feature
 ```
 
-This will create a new branch called "my-new-feature", you may change the name of the branch. Create a new commit with a name
+This will create a new branch called "my-new-feature", you may change the name of the branch. Create a new commit with a name. Notice that there should be changes to source code for commit to be created.
 ```
 git commit -m "I made a mew feature"
 ```
 
-Push your changes to remote will fail with message similar to
+Push your changes to remote
 ```
 git push --set-upstream origin "my-new-feature"
 ```
