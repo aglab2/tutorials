@@ -32,13 +32,13 @@ cat C:\Users\[NAME]\.ssh\id_rsa.pub
 
 Go back to GitHub, click on your avavar in top-right corent, press "Settings". Go to SSH and GPG keys, click "New SSH Key" and paste the contents of file "id_rsa.pub". Click "Add SSH Key". This will allow to manipulate "local" repository copy.
 
-Go to "original" repository, for example https://github.com/StarDisplayLayouts/layouts and click "Fork" button. UI will let you create a "fork" of the repository called https://github.com/[YOUR_NAME]/layouts.
+Go to "original" repository, for example https://github.com/StarDisplayLayouts/layouts and click "Fork" button. UI will let you create a "fork" of the repository called https://github.com/[YOUR_NAME]/[YOUR_FORK_NAME].
 
 To change the content of your fork, the easiest way is to use "git" command line tool in "cmder". Acquire the SSH link, use "Code" > SSH > Copy to clipboard. Clone the "remote" repository to a "local" copy in any folder you wish. You may use these helpful commands to navigate
 ```
 D:
 cd D:\git
-git clone git@github.com:aglab2/layouts.git ./layouts
+git clone git@github.com:[YOUR_NAME]/[YOUR_FORK_NAME].git ./layouts
 ```
 
 Type "yes" to answer "Are you sure you want to continue connecting", if asked.
