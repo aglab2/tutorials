@@ -30,7 +30,7 @@ Use default parameters for everything, it will write your SSH key to the paths l
 cat C:\Users\[NAME]\.ssh\id_rsa.pub
 ```
 
-Go back to GitHub, click on your avavar in top-right corent, press "Settings". Go to SSH and GPG keys, click "New SSH Key" and paste the contents of file "id_rsa.pub". Click "Add SSH Key". This will allow to manipulate "local" repository copy.
+Go back to GitHub, click on your avavar in top-right corner, press "Settings". Go to SSH and GPG keys, click "New SSH Key" and paste the contents of file "id_rsa.pub". Click "Add SSH Key". This will allow to manipulate "local" repository copy.
 
 Go to "original" repository that you would like to edit and click "Fork" button. UI will let you create a "fork" of the repository called https://github.com/[YOUR_NAME]/[REPO_NAME]. This will lead to have 2 separate URLs:
  * "original" URL: https://github.com/aglab2/[REPO_NAME]
