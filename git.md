@@ -45,7 +45,10 @@ git clone git@github.com:[YOUR_NAME]/[REPO_NAME].git ./layouts
 
 Type "yes" to answer "Are you sure you want to continue connecting", if asked.
 
-This will clone repository to "D:\git\layouts".
+This will clone repository to "D:\git\layouts". Change directory to your local repository
+```
+cd [REPO_NAME]
+```
 
 You may now apply your changes to your local version of the repository.
 
