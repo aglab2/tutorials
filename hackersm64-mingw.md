@@ -14,6 +14,8 @@ How to build HackerSM64 using MinGW on Windows. Compilers SDK will take ~1Gb of 
 
 Now remove WindowsApps from PATH because it will cause issues with Python we installed. In "User variables from admin" click on "Path", select "%USERPROFILE%/AppData/Local/Microsoft/WindowsApps", click "Delete".
 
+Click "OK" to apply the changes, close "System Properties" window.
+
 5) Extract cmder.zip folder. For convenience, i will use folder "C:/cmder".
 6) Extract `rg.exe` from ripgrep zip in folder `ripgrep-14.1.0.x86_64-pc-windows-msvc`. Put `rg.exe` in `bin` folder near `Cmder.exe`, in my case it is folder `C:\Cmder\bin`.
 7) Launch "Cmder.exe". Ensure that compilers work: execute `gcc -v`, `mips-n64-gcc -v` and `rg -V`. You should observe the output similar to the following:
