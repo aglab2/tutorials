@@ -52,7 +52,7 @@ Go to "original" repository that you would like to edit and click "Fork" button.
  * "original" URL: https://github.com/aglab2/[REPO_NAME]
  * Your "fork" URL: https://github.com/[YOUR_NAME]/[REPO_NAME]
 
-Use your fork https://github.com/[YOUR_NAME]/[REPO_NAME] to add contents to. To change the content of your fork, the easiest way is to use "git" command line tool in "cmder". Acquire the SSH link, use "Code" > SSH > Copy to clipboard. Clone the "remote" repository to a "local" copy in any folder you wish. You may use these helpful commands to navigate
+Use your fork https://github.com/[YOUR_NAME]/[REPO_NAME] to add contents to. To change the content of your fork, the easiest way is to use "git" command line tool in "cmder". Acquire the SSH link on GitHub webpage for your fork: use "Code" > SSH > Copy to clipboard. Clone the "remote" repository to a "local" copy in any folder you wish. You may use these helpful commands to navigate
 ```
 D:
 cd D:\git
