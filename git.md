@@ -43,7 +43,7 @@ The key's randomart image is:
 
 From terminal read "id_rsa.pub" file using cat. Replace "[NAME]" with your name.
 ```
-cat C:\Users\[NAME]\.ssh\id_rsa.pub
+cat "C:\Users\[NAME]\.ssh\id_rsa.pub"
 ```
 
 Go back to GitHub, click on your avavar in top-right corner, press "Settings". Go to SSH and GPG keys, click "New SSH Key" and paste the contents of file "id_rsa.pub". Click "Add SSH Key". This will allow to manipulate "local" repository copy.
