@@ -52,6 +52,23 @@ cd [REPO_NAME]
 
 You may now apply your changes to your local version of the repository.
 
+# How to track changes in your repo
+
+You may use a single branch for your development. Add all your changes (mind the dot in the end)
+```
+git add .
+```
+
+Commit your changes
+```
+git commit -m "my first commit with changes"
+```
+
+Push on GitHub
+```
+git push
+```
+
 # How to make a simple PR
 
 I highly recommended to make a separate branch to make PR from now. Executing the following command:
