@@ -25,7 +25,7 @@ Open command line and generate SSH keys
 ssh-keygen
 ```
 
-Use default parameters for everything - click "Enter" multiple times. it will write your SSH key to the paths listed in first 2 lines. From terminal read "id_rsa.pub" file using cat.
+Use default parameters for everything - click "Enter" multiple times. it will write your SSH key to the paths listed in first 2 lines. From terminal read "id_rsa.pub" file using cat. Replace "[NAME]" with your name.
 ```
 cat C:\Users\[NAME]\.ssh\id_rsa.pub
 ```
