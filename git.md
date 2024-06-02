@@ -25,7 +25,23 @@ Open command line and generate SSH keys
 ssh-keygen
 ```
 
-Use default parameters for everything - just press an "Enter" key multiple times. it will write your SSH key to the paths listed in first 2 lines. From terminal read "id_rsa.pub" file using cat. Replace "[NAME]" with your name.
+Use default parameters for everything - just press an "Enter" key multiple times. it will write your SSH key to the paths listed in first 2 lines. In the end you will get something similar to randomart image which means the key was successfully created.
+```
+The key's randomart image is:
++---[RSA 3072]----+
+|            oo+. |
+|         . o *.. |
+|       ...= * +  |
+|      ..o* * o   |
+|     o .S B .    |
+|    o .o.+ o     |
+|   + .+oo..      |
+|    =ooO= E      |
+|    .*@*..       |
++----[SHA256]-----+
+```
+
+From terminal read "id_rsa.pub" file using cat. Replace "[NAME]" with your name.
 ```
 cat C:\Users\[NAME]\.ssh\id_rsa.pub
 ```
