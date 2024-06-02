@@ -7,10 +7,17 @@ How to build HackerSM64 using MinGW on Windows. Compilers SDK will take ~1Gb of 
  * [Python](https://www.python.org/ftp/python/3.12.3/python-3.12.3-amd64.exe)
  * [ripgrep](https://github.com/BurntSushi/ripgrep/releases/download/14.1.0/ripgrep-14.1.0-x86_64-pc-windows-msvc.zip) - latest release for ripgrep
 
-2) Install python using downloaded exe. Select "Use admin priviliges when installer py.exe" and "Add python.exe to PATH". Click "Customize installation". Unselect all checkboxes. Only select checkboxes "Documentation", "pip" and "for all users (requires admin priviliges)". Click "Next". Unselect all checkboxes. Only select "Install Python 3.12 for all users", "Add Python to environment variables" and "Precompile standard library". Click "Install", wait for it to finish.  If available, click "Disable path length limit". Click "Close". Go to folder when python was installed (likely "C:/Program Files/Python312". Copy "python.exe" to "python3.exe".
+2) Install python using downloaded exe.
 
-3) Extract winlibs and winn64libs folders. I will use dir "C:/" for convenience. I suggest using short folders without any whitespaces. I assume that folders were unpacked in "C:/winlibs" and "C:/n64libs". Ensure that folders have "bin" in the root like "C:/winlibs/bin" and "C:/n64libs/bin".
-4) In search bar search for "Edit the system environment variables". Click on "Environment Variables...". in "System Variables" double click on "Path" entry. Click "New", then "Browse" and select "C:/winlibs/bin". Perform the same for "C:/n64libs/bin".
+Select "Use admin priviliges when installer py.exe" and "Add python.exe to PATH". Click "Customize installation". Unselect all checkboxes. Only select checkboxes "Documentation", "pip" and "for all users (requires admin priviliges)". Click "Next". Unselect all checkboxes. Only select "Install Python 3.12 for all users", "Add Python to environment variables" and "Precompile standard library". Click "Install", wait for it to finish.  If available, click "Disable path length limit". Click "Close". Go to folder when python was installed (likely "C:/Program Files/Python312". Copy "python.exe" to "python3.exe".
+
+3) Extract winlibs and winn64libs folders.
+
+I will use dir "C:/" for convenience. I suggest using short folders without any whitespaces. I assume that folders were unpacked in "C:/winlibs" and "C:/n64libs". Ensure that folders have "bin" in the root like "C:/winlibs/bin" and "C:/n64libs/bin".
+
+4) Add all extracted binaries to system "PATH".
+
+In search bar search for "Edit the system environment variables". Click on "Environment Variables...". in "System Variables" double click on "Path" entry. Click "New", then "Browse" and select "C:/winlibs/bin". Perform the same for "C:/n64libs/bin".
 
 Now remove WindowsApps from PATH because it will cause issues with Python we installed. In "User variables from admin" click on "Path", select "%USERPROFILE%/AppData/Local/Microsoft/WindowsApps", click "Delete".
 
