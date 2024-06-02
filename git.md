@@ -17,7 +17,7 @@ This is very basic representation of git structure
 
 Let's see an example. Assume there is a repository for Star Display layouts https://github.com/StarDisplayLayouts/layouts. My fork of this repository is https://github.com/aglab2/layouts. When I wanted to make changes in the repository, I made a new "branch" called "jj" where I put my changed https://github.com/aglab2/layouts/commits/jj. I clone my fork locally, make a new commit, push my changes to remote. From my branch "jj" I create a Pull Request on GitHub to "main" repository.
 
-# How to make a simple PR
+# How to clone your repo
 
 Start by making a fork of the repository. You will need to create an account on GitHub. I will use "cmder" in this tutorial, WSL should be also sufficient.
 Open command line and generate SSH keys
@@ -51,6 +51,8 @@ cd [REPO_NAME]
 ```
 
 You may now apply your changes to your local version of the repository.
+
+# How to make a simple PR
 
 I highly recommended to make a separate branch to make PR from now. Executing the following command:
 ```
