@@ -54,7 +54,7 @@ ripgrep 14.1.0 (rev e50df40a19)
 ```
 Ensure that "MinGW-W64 x86_64-ucrt-posix-seh" is present in gcc output.
 
-8) Clone repo using [tutorial](https://github.com/aglab2/tutorials/blob/main/git.md). Base repo is https://github.com/aglab2/HackerSM64-MinGW. I assume that repository was forked and cloned to C:\HackerSM64-MinGW 
+8) Clone repo using [tutorial](https://github.com/aglab2/tutorials/blob/main/git.md). Base repo is https://github.com/HackerN64/HackerSM64. I assume that repository was forked and cloned to C:\HackerSM64-MinGW 
 9) Place legally obtained "baserom.us.z64" in C:\HackerSM64-MinGW.
 10) To build the repository, change directory to "C:\HackerSM64-MinGW" in cmder and use command "mingw32-make -j12". Please change "12" to amount of CPU cores.
 ```
