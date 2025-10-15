@@ -28,7 +28,8 @@ Download APK from releases again (version 1.5, link below). It should automatica
 
  * N64 Console + SummerCart/EverDrive X7
 
-    Culling features are used to ensure high performance which can lead to occasional flickering. You are _highly_ recommended to use carts that support autosaving.
+    Culling features are used to ensure high performance which can lead to occasional flickering. You are _very highly_ recommended to use carts that support autosaving because this game has a very slight chance of crashing randomly.
+
     Consider buying SummerCart64 here https://www.aliexpress.com/item/1005007816403187.html?gatewayAdapt=usa2glo4itemAdapt, recommended by MVG https://www.youtube.com/watch?v=K1yQ5l-DnQc
 
  * Parallel Launcher with Parallel core v2.21.2 or higher + OGRE https://parallel-launcher.ca/
