@@ -1,5 +1,7 @@
 # How to transfer savefiles from demo?
 
+!!! Backup every file you overwrite/delete to avoid losing your save data !!!
+
 Your savefile from demo can be moved to full released game. Full game will automatically convert the savefile to match the new format when you try to open the savefile from demo.
 
 Follow platform specific instructions:
