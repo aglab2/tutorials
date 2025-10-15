@@ -22,7 +22,7 @@ RMG is no longer supported. Please use Parallel Launcher. To import the savefile
 
  * Luna Mupen64PlusAE on Android
 
-Download APK from releases again (version 1.5, link below). It should automatically transfer the savefile but I am not 100% sure it will work. Sorry if it does not. 
+Download APK from releases again (version 1.5, link below). It should automatically transfer the savefile. I am not 100% sure it will work, sorry if it fails. 
 
 # Supported platforms
 
