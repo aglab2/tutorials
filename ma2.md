@@ -1,34 +1,47 @@
-# How to transfer savefiles from demo?
+# How to transfer savefiles from Mario Adventure 2 Demo?
 
-!!! Backup every file you overwrite/delete to avoid losing your save data !!!
+### !!! Backup every file you overwrite/delete to avoid losing your save data !!!
 
-Your savefile from demo can be moved to full released game. Full game will automatically convert the savefile to match the new format when you try to open the savefile from demo. On most emulators this requires renaming the savefile from demo to full release. Follow platform specific instructions:
+Your savefile from Mario Adventure 2 Demo can be moved to the full game. Full game will automatically convert the savefile to match the new format when you try to open the savefile from the demo. On most emulators this requires renaming the savefile from demo to full release. Follow platform-specific instructions:
 
- * N64 Console
+ * [N64 Console](#n64-console)
+ * [Parallel Launcher](#parallel-launcher)
+ * [Luna's Project64](#lunas-project64)
+ * [RMG (Rosalie's Mupen GUI)](#rmg-rosalies-mupen-gui)
+ * [Luna Mupen64PlusAE on Android](#luna-mupen64plusae-on-android)
 
-For EverDrive X7 your savefile is in folder "gamedata". Rename "ma2d.srm" to "ma2.srm" to match the name of the ROM you are playing. For SummerCart the savefile is near Z64 so make sure that savefile has the correct name.
+<hr />
 
- * Parallel Launcher
+### N64 Console
 
-Click on "ma2d" ROM and select option "Show Save File". Do the same for "ma2" ROM you either downloaded from RHDC directly or from other source. Rename the savefile for "ma2d" ROM to match "ma2" ROM. Make sure you are using the latest version of Parallel Core (look at guide below)
+* For EverDrive X7, your savefile is in folder "gamedata". Rename "ma2d.srm" to "ma2.srm" to match the name of the ROM you are playing.
+* For SummerCart, the savefile is near the Z64 ROM, so make sure that savefile has the correct name.
 
- * Luna Project64
+### Parallel Launcher
 
-Works out of box but make sure that you are using v3.6.1 or higher.
+Make sure you are using the latest version of Parallel core (look at "Supported Platforms" below).
 
- * RMG
+Click on "ma2d" ROM and select option "Show Save File". Do the same for "ma2" ROM you downloaded either from RHDC directly or from other source. Rename the savefile for "ma2d" ROM to match "ma2" ROM.
 
-RMG is no longer supported. Please use Parallel Launcher. To import the savefile right click on "ma2" and select "Import Project64 savefile". Go to "Save" folder near RMG.exe and select file "MARIO ADVENTURE 2-_______.sra". Your savefile should be imported. Note that this guide doesn't work till falcobuster fixes bug in Parallel Launcher save importing.
+### Luna's Project64
 
- * Luna Mupen64PlusAE on Android
+Use v3.6.1 or higher, then it works out of the box.
 
-Download APK from releases again (version 1.5, link below). It should automatically transfer the savefile. I am not 100% sure it will work, sorry if it fails. 
+### RMG (Rosalie's Mupen GUI)
+
+RMG is no longer supported. Please use Parallel Launcher.
+
+To import the savefile, right click on "ma2" and select "Import Project64 savefile". Go to "Save" folder near RMG.exe and select file "MARIO ADVENTURE 2-_______.sra". Your savefile should be imported. _Note that this guide won't work until falcobuster fixes a bug in Parallel Launcher save importing._
+
+### Luna Mupen64PlusAE on Android
+
+Download emulator APK from releases again (version 1.5, link below). It should automatically transfer the savefile. I am not 100% sure it will work, sorry if it fails. 
 
 # Supported platforms
 
  * N64 Console + SummerCart/EverDrive X7
 
-    Culling features are used to ensure high performance which can lead to occasional flickering. You are _very highly_ recommended to use carts that support autosaving because this game has a very slight chance of crashing randomly.
+    Culling features are used to ensure high performance, which can lead to occasional flickering. You are _very highly_ recommended to use carts that support autosaving because this game has a very slight chance of crashing randomly.
 
     Consider buying SummerCart64 here https://www.aliexpress.com/item/1005007816403187.html?gatewayAdapt=usa2glo4itemAdapt, recommended by MVG https://www.youtube.com/watch?v=K1yQ5l-DnQc
 
@@ -44,4 +57,4 @@ Download APK from releases again (version 1.5, link below). It should automatica
 
  * Android: Luna Mupen64PlusAE https://github.com/aglab2/mupen64plus-ae/releases
 
-    This worked on my phone but I expect support to be sporadic. Best use emulators above on PC.
+    This worked on my phone but I expect support to be sporadic. If you can, use one of the PC emulators above.
