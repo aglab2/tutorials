@@ -45,7 +45,7 @@ Download emulator APK from releases again (version 1.5, link below). It should a
 
     Consider buying SummerCart64 here https://www.aliexpress.com/item/1005007816403187.html?gatewayAdapt=usa2glo4itemAdapt, recommended by MVG https://www.youtube.com/watch?v=K1yQ5l-DnQc
 
- * Parallel Launcher with Parallel core v2.27.0 or higher + OGRE https://parallel-launcher.ca/
+ * Parallel Launcher 9.0.1 with Parallel core v2.27.0 or higher + OGRE https://parallel-launcher.ca/
 
     Check for updates with Settings - Updaters - Check for Updates
 
