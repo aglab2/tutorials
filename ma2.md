@@ -51,10 +51,8 @@ Download emulator APK from releases again (version 1.5, link below). It should a
 
  * Luna Project64 v3.6.1 or higher with ANGLE GLideN64 4.3.21 or higher https://github.com/Luna-Project64/Luna-Project64/releases
 
-    Options - Configuration - Plugins - Video plugin - ANGLE GLideN64
-   
-    No FB emulation (Options - Graphics Settings - Frame buffer - uncheck Emulate frame buffer)
-   
+    Options - Configuration - Plugins - Video plugin - ANGLE GLideN64<br />
+    No FB emulation (Options - Graphics Settings - Frame buffer - uncheck Emulate frame buffer)<br />
     Enable Noise (Options - Graphics Settings - Emulation - check Enable Noise)
 
  * Android: Luna Mupen64PlusAE https://github.com/aglab2/mupen64plus-ae/releases
