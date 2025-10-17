@@ -31,7 +31,7 @@ Use v3.6.1 or higher, then it works out of the box.
 
 RMG is no longer supported. Please use Parallel Launcher.
 
-To import the savefile, right click on "ma2" and select "Import Project64 savefile". Go to "Save" folder near RMG.exe and select file "MARIO ADVENTURE 2-_______.sra". Your savefile should be imported. _Note that this guide won't work until falcobuster fixes a bug in Parallel Launcher save importing._
+To import the savefile, right click on "ma2" and select "Import Project64 savefile". Go to "Save" folder near RMG.exe and select file "MARIO ADVENTURE 2-_______.sra". Your savefile should be imported.
 
 ### Luna Mupen64PlusAE on Android
 
