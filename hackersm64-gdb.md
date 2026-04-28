@@ -29,7 +29,7 @@ addr2line -e ./build/us_n64/sm64.elf  0x80000400
 ./HackerSM64/src/buffers/buffers.c:27
 ```
 
-We will present GDB with sm64.elf file for debugging.
+We will present GDB with `./build/us_n64/sm64.elf` file for debugging.
 
 ## Emulator setup
 
