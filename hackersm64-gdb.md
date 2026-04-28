@@ -47,7 +47,7 @@ Keep the "Commands" window opened. Open the ROM using File > Open ROM. Now you w
 
 ## VSCode setup
 
-Add the following file in `.vscode/launch.json`
+Add the following file in `.vscode/launch.json`. On Windows make sure to update `miDebuggerPath` to point to `gdb-multiarch.exe`.
 
 ```
 {
